@@ -1,0 +1,87 @@
+fieldset{
+    background-color:#25a6aa;
+    width:500px;
+    height:500px;
+    margin-top:100px;
+    margin-left:450px;
+    border-color:antiquewhite;
+    border:none;
+    box-shadow:0 0 12px rgb(232, 170, 172)
+    align center;
+
+}
+.calculator audio{
+    color:azure;
+    background-color:#0c197b;
+
+}
+div{
+    width:375px;
+    max-width:400px;
+    margin-left: 20px;
+    margin-top:35px;
+    margin-left:20px;
+}
+h1{
+    text-align:center;
+    font-size:2.5rem;
+    color:rgb(243,94,7);
+    margin-bottom:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+    background-color:aqua(0, 0, 0);
+    color:gray;
+    text-shadow:0cqmax;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin:20;
+    padding:10;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-color: rgb(23, 32, 114);
+}
+.calculator{
+    border:1px solid #2d8f7a;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:2px 2px 5px rgba(0,0,0,0.2);
+    background-color:rgba(61, 46, 9, 0.11);
+}
+.calculator input[type="text"]{
+    width:100%;
+    padding:10px;
+    height:25px;
+    margin-bottom:10px;
+    border:1px solid #64481f;
+    border-radius:10px;
+}
+.calculator button{
+    width:80px;
+    height:80px;
+    font-size:18px;
+    margin:2px;
+    border:none;
+    color:rosybrown;
+    border-radius:20px;
+    background-color:black;
+    cursor:pointer;
+}
+.calculator button:hover{
+    background-color:coral
+}
+.calculator button.operator{
+    background-color:hotpink;
+    color:white;
+}
+.calculator button.operator:hover{
+    background-color:black;
+}
+.cal-cont1{
+    width:280px;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+}
